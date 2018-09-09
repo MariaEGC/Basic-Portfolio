@@ -1,3 +1,7 @@
+*{
+    margin: 10;
+    padding: 10;
+}
 body{
     background-color:#4aaaa5;
 }
@@ -11,6 +15,33 @@ header{
     background:#4aaaa5;
     color:#ffffff;
     font-family: "Georgia", Times, Times New Roman, serif;
+    float:left;
+}
+
+.links{
+    float: right;
+    list-style: none;
+}
+
+.links li a{
+    color:#777777;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size:15 px;
+}
+
+.links li a:hover{
+    border: 1px solid black;
+}
+
+.links li{
+    display:inline-block;
+}
+
+.row{
+    max-width: 1200px;
+    margin:auto;
 }
 
 body{
@@ -21,13 +52,21 @@ body{
 .info{
     color:#777777;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    float: left;
+}
+
+
+#placeholder{
+    float:left;
 }
 
 #about{
     color:#4aaaa5;
     font-family: "Georgia", Times, Times New Roman, serif;
+    clear:both;
 }
 
 footer{
     background:#666666;
+    clear:both;
 }
