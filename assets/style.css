@@ -1,14 +1,9 @@
 *{
-    margin: 10;
+    margin: 0;
     padding: 10;
 }
 body{
     background-color:#4aaaa5;
-}
-
-header{
-    background-color:#ffffff;
-    border-color:#cccccc;
 }
 
 #name{
@@ -21,6 +16,7 @@ header{
 .links{
     float: right;
     list-style: none;
+    
 }
 
 .links li a{
@@ -32,7 +28,7 @@ header{
 }
 
 .links li a:hover{
-    border: 1px solid black;
+    border: 1px solid #777777;
 }
 
 .links li{
@@ -40,19 +36,15 @@ header{
 }
 
 .row{
-    max-width: 1200px;
-    margin:auto;
+    background-color:#ffffff;
+    border-color:#cccccc;
+    height: 50px;
 }
 
-body{
-    background:#ffffff;
-    border-color:#dddddd;
-}
 
 .info{
     color:#777777;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-    float: left;
 }
 
 
@@ -64,9 +56,16 @@ body{
     color:#4aaaa5;
     font-family: "Georgia", Times, Times New Roman, serif;
     clear:both;
+    overflow: auto;
 }
 
 footer{
     background:#666666;
     clear:both;
+}
+
+.trying{
+    background:#ffffff;
+    border-color:#dddddd;
+    height: 300px;
 }
